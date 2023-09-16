@@ -21,6 +21,11 @@
     color: #000000 !important;
 }
 
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.img2 {}
 
 .links:hover {
     -webkit-text-stroke: 1px #000000;
