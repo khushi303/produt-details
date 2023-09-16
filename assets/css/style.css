@@ -223,6 +223,10 @@
     background: inherit;
 }
 
+.top_3 {
+    top: -3px;
+}
+
 .size-btn41 {
     padding: 8px 33px;
     border-radius: 40px;
