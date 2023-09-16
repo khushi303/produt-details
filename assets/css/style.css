@@ -242,6 +242,7 @@
 .btn-1:hover {
     background: var(--redf40);
     color: var(--white);
+    transition: .3s linear;
 }
 
 .btn-next {
