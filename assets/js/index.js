@@ -1,6 +1,6 @@
 function navfun() {
     document.getElementById("nav-icon").classList.toggle("end-0");
-    // document.body.classList.toggle("overflow-hidden")
+    document.body.classList.toggle("overflow-hidden")
     document.getElementById("menu-icon").classList.toggle("cross");
     document.getElementById("ad-1").classList.toggle("d-none");
 }
