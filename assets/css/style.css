@@ -187,6 +187,7 @@
 
 .img-border {
     border-radius: 17px;
+    border: none;
 }
 
 .tb-img {
