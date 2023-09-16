@@ -83,8 +83,15 @@
 .btn-add {
     padding: 10px 32px;
     border-radius: 21px;
-    background: #28A745;
-    border: none;
+    border: 1px solid white;
+    background: var(--green);
+    transition: .3s linear;
+}
+
+.btn-add:hover {
+    background: var(--white);
+    border: 1px solid #28A745 !important;
+    color: var(--green) !important;
 }
 
 .btn-size {
