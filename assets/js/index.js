@@ -19,10 +19,51 @@ button.addEventListener("click", function () {
 $('.responsive').slick({
     dots: false,
     infinite: true,
-    speed: 300,
+    speed: 4000,
     slidesToShow: 4,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    autoplay: true,
     arrows: false,
     slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 1000,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
+});
+
+$('.responsive1').slick({
+    dots: false,
+    infinite: true,
+    speed: 4000,
+    slidesToShow: 4,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    autoplay: true,
+    arrows: false,
+    slidesToScroll: 1,
+    // rtl: true,
     responsive: [
         {
             breakpoint: 1200,
