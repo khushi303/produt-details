@@ -33,21 +33,24 @@ $('.responsive').slick({
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: false
+                dots: false,
+                cssEase: 'linear',
             }
         },
         {
             breakpoint: 1000,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                cssEase: 'linear',
             }
         },
         {
             breakpoint: 576,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                cssEase: 'linear',
             }
         }
     ]
