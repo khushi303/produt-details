@@ -254,6 +254,10 @@
     background: rgba(196, 196, 196, 0.00);
 }
 
+.mr-6 {
+    margin-right: 6px;
+}
+
 @media (min-width:576px) {
     .tb-img {
         top: -8%;
