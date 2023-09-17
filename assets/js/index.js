@@ -14,6 +14,7 @@ button1.addEventListener("click", function () {
 
 button.addEventListener("click", function () {
     p.innerHTML = +p.innerHTML - 1
+
 })
 
 $('.responsive').slick({
