@@ -277,6 +277,10 @@
     color: var(--black2) !important;
 }
 
+.disable {
+    cursor: not-allowed;
+}
+
 @media (min-width:576px) {
     .tb-img {
         top: -8%;

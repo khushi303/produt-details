@@ -13,7 +13,12 @@ button1.addEventListener("click", function () {
 })
 
 button.addEventListener("click", function () {
-    p.innerHTML = +p.innerHTML - 1
+    if (p.innerHTML == 0) {
+        button.classList.add("disable")
+    } else if (p.innerHTML > 0) {
+        button.classList.remove("disable")
+        p.innerHTML = p.innerHTML - 1
+    }
 
 })
 
