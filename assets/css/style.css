@@ -85,7 +85,7 @@
 
 .btn-add {
     padding: 10px 32px;
-    border-radius: 21px;
+    border-radius: 30px;
     border: 1px solid white;
     background: var(--green);
     transition: .3s linear;
@@ -281,6 +281,10 @@
     cursor: not-allowed;
 }
 
+.footer-icon:hover svg path {
+    fill: ;
+}
+
 @media (min-width:576px) {
     .tb-img {
         top: -8%;
@@ -288,13 +292,9 @@
     }
 }
 
-@media (max-width:1100px) and (min-width:992px) {
-    .pb_20 {
-        padding-bottom: 20px !important;
-    }
-
-    .pt-0 {
-        padding-top: 0 !important;
+@media (max-width:1400px) and (min-width:992px) {
+    .h-lg-90 {
+        height: 90%;
     }
 }
 
