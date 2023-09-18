@@ -281,9 +281,10 @@
     cursor: not-allowed;
 }
 
+/* 
 .footer-icon:hover svg path {
     fill: ;
-}
+} */
 
 @media (min-width:576px) {
     .tb-img {
