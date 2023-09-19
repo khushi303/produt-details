@@ -296,7 +296,7 @@
     min-width: 109px;
     z-index: 1;
     display: none;
-    /* border-radius: 18px; */
+    border-radius: 18px;
     border: 1px solid #E8E8E8;
     flex-direction: column;
     left: -61px;
@@ -306,7 +306,7 @@
 .dropdown-box a {
     width: 108px;
     height: 45px;
-    /* border-radius: 21px; */
+    border-radius: 18px;
     border-bottom: 1px solid #E8E8E8;
     background: rgba(196, 196, 196, 0.00);
 }
