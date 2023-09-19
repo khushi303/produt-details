@@ -4,6 +4,9 @@ function navfun() {
     document.getElementById("menu-icon").classList.toggle("cross");
     document.getElementById("ad-1").classList.toggle("d-none");
 }
+function drop() {
+    document.getElementById("dropcontent").classList.toggle("d-block")
+}
 let button = document.getElementById("minus")
 let p = document.getElementById("num")
 let button1 = document.getElementById("add")

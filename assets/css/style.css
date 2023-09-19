@@ -290,6 +290,32 @@
     gap: 25px;
 }
 
+.dropdown-box {
+    position: absolute;
+    background: white;
+    min-width: 109px;
+    z-index: 1;
+    display: none;
+    /* border-radius: 18px; */
+    border: 1px solid #E8E8E8;
+    flex-direction: column;
+    left: -61px;
+    top: 41px;
+}
+
+.dropdown-box a {
+    width: 108px;
+    height: 45px;
+    /* border-radius: 21px; */
+    border-bottom: 1px solid #E8E8E8;
+    background: rgba(196, 196, 196, 0.00);
+}
+
+.dropdown-box a:hover {
+    background: var(--gray5);
+    color: var(--white);
+}
+
 @media (min-width:576px) {
     .tb-img {
         top: -8%;
